@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    }
+    #instrucao{
+       position: relative;
+    }
+    
+    #caixa{
+        color: rgb(0, 255, 170);
+        background-color: rgba(58, 56, 56, 0.4) ;
+        position: absolute;
+        border-radius: 30px;
+        padding: 150px;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        column-count: 2; /* Divide o texto em 2 colunas */
+        column-gap: 100px; /* Adiciona um espaço de 20px entre as colunas */
+    }
+    
+.texto{
+    padding: 10px;
+    outline: none;
+    column-count: 2;
+    column-gap: 20px;
+    border-radius: 10px;
+    background-color: rgb(58, 57, 57);
+    width: 30vh;
+    color: white;
+    font-size: 19px;
+    
+}
+
+
+#btnsend{
+    background-color: rgb(0, 255, 170);
+    padding: 15px;
+    border-radius: 10px;
+    width: 100%;
+    
+    
+}
+#login{
+    font-size: 50px;
+    margin-top: -50;
+}
+#btnsend:hover{
+    background-color: rgb(11, 177, 127);
+    cursor: pointer;
+}
+
+  #insta{
+    width: 55px;
+    height: 60px;
+    margin-top: -15px ;
+    position: absolute;
+    margin-left: 430px;
+
+  }
+  
+  .mario{
+    width: 120px;
+    position: absolute;
+    margin-top: -150px;
+    margin-left: 120px;
+
