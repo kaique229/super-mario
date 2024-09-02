@@ -43,7 +43,8 @@ body{
 }
 #login{
     font-size: 50px;
-    margin-top: -50;
+    margin-top: -0;
+    position: relative;
 }
 #btnsend:hover{
     background-color: rgb(11, 177, 127);
@@ -53,9 +54,9 @@ body{
   #insta{
     width: 55px;
     height: 60px;
-    margin-top: -15px ;
+    margin-top: -70px ;
     position: absolute;
-    margin-left: 430px;
+    margin-left: 200px;
 
   }
   
@@ -63,5 +64,5 @@ body{
     width: 120px;
     position: absolute;
     margin-top: -150px;
-    margin-left: 120px;
+  }
 
